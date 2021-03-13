@@ -17,5 +17,5 @@ module.exports = function countCats( matrix ) {
             array = matrix.flat();
             result = array.filter(item => item == '^^')
             return result.length;
-        }
+        
 };
